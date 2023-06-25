@@ -1,3 +1,4 @@
+
 void main() {
 
 //forEach
@@ -10,9 +11,12 @@ List studentNames = [
 
 {"name": "Jahanzaib", "marks": 85},
 {"name": "Azhar", "marks": 75}
-
 ];
 
-print(studentNames[0]["name"]);
 
+// studentNames.add({"name":"Bilal","marks":81});
+// studentNames.forEach((e) {print(e); });
+// print(studentNames);
+// print(studentNames[0]["name"]);
+print(studentNames);
 }     
